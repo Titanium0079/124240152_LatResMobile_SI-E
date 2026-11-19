@@ -1,3 +1,9 @@
+/// Halaman daftar artikel berdasarkan kategori API.
+///
+/// Data dimuat melalui [ApiService.fetchData]. Halaman menyediakan filter
+/// berdasarkan sumber berita (`newsSite`), menampilkan daftar artikel,
+/// dan membuka [DetailScreen] ketika salah satu artikel dipilih.
+
 import 'package:flutter/material.dart';
 
 import '../models/article_model.dart';

@@ -1,3 +1,8 @@
+/// Halaman pendaftaran akun baru.
+///
+/// Mengambil username dan password dari input pengguna, memvalidasi agar
+/// keduanya tidak kosong, lalu menyimpan nilainya ke SharedPreferences.
+
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

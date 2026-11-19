@@ -1,3 +1,8 @@
+/// Halaman utama setelah pengguna berhasil login.
+///
+/// Menyediakan navigasi ke kategori News, Blog, Reports, halaman Favorite,
+/// serta fungsi logout untuk mengakhiri sesi login lokal.
+
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

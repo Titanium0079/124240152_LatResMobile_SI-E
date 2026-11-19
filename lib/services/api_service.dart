@@ -1,3 +1,9 @@
+/// Lapisan layanan untuk mengambil data dari Spaceflight News API.
+///
+/// `fetchData` menerima kategori endpoint (articles, blogs, atau reports),
+/// mengirim HTTP GET, memeriksa status respons, mengubah JSON menjadi
+/// daftar objek [Article], dan melempar exception jika permintaan gagal.
+
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;

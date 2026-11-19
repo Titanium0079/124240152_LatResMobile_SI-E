@@ -1,3 +1,9 @@
+/// Halaman daftar artikel yang ditandai sebagai favorit.
+///
+/// Data dibaca dari `globalFavorites` yang didefinisikan di
+/// `detail_screen.dart`. Pengguna dapat membuka detail atau menghapus
+/// artikel dari daftar favorit.
+
 import 'package:flutter/material.dart';
 
 import 'detail_screen.dart';

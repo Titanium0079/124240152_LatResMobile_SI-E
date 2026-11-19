@@ -1,3 +1,9 @@
+/// Model data artikel SpaceFlight News.
+///
+/// Class [Article] menjadi representasi satu berita/blog/laporan yang
+/// diterima dari API. Factory [Article.fromJson] mengubah objek JSON
+/// dari API menjadi objek Dart agar mudah digunakan oleh widget.
+
 class Article {
   final int id;
   final String title;

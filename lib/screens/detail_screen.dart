@@ -1,3 +1,9 @@
+/// Halaman untuk melihat informasi lengkap sebuah artikel.
+///
+/// Menampilkan gambar, judul, sumber berita, tanggal publikasi, ringkasan,
+/// dan tombol untuk membuka tautan asli. Halaman ini juga mengelola status
+/// favorit melalui [globalFavorites].
+///
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 

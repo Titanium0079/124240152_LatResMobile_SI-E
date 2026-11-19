@@ -1,3 +1,9 @@
+/// Halaman autentikasi/login pengguna.
+///
+/// Memeriksa username dan password terhadap data yang tersimpan di
+/// SharedPreferences. Jika cocok, status login disimpan dan pengguna
+/// diarahkan ke halaman utama.
+
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

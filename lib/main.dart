@@ -1,3 +1,9 @@
+/// Titik masuk (entry point) aplikasi SpaceFlight News.
+///
+/// File ini memeriksa status login yang tersimpan secara lokal, lalu
+/// menentukan halaman pertama yang ditampilkan kepada pengguna.
+/// `MyApp` mengatur tema global dan halaman awal aplikasi.
+/// 
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
